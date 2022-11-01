@@ -1,0 +1,171 @@
+@charset "utf-8";
+@import url("https://fonts.googlepis.com/css?family=open+sans:400,300,600|Noto+Sans:700");
+
+@font-face {
+	font-family: "Rage-Italic";
+	font-style: italic;
+	font-weight: 400;
+	src: url("https://fonts.animapp.com/Rage-Italic")
+		format("truetype");
+}
+@font-face {
+		font-family: "Arial-Bold";
+	font-style: normal;
+	font-weight: 700;
+	src: url("https://fonts.animapp.com/Arial-Bold")
+		format("truetype");
+}
+.web-1920-1 {
+	align-items:center;
+	background-color:#fafafa;
+	display:flex;
+	flex-direction:column;
+	gap: 137px;
+	min-height:1080px;
+	width:1920px;
+}
+
+.hidden,
+.hidden *{
+	pointer-events: none;
+	visability: hidden;
+}
+.flex-row{
+	align-items:center;
+	display: flex;
+	gap:133px;
+	margin-left:12px;
+	min-width:1742px;
+}
+.image-1{
+	background-image: url("../../../../Documents/Northwest vista/IMED-1316/GitHUb/thefriendlydeadcofinal/assets/our-story.jpg");
+		background-size: 100% 100%;
+
+	height:500px;
+	width:650px;
+}
+.flex-col{
+	align-items:center;
+	display:flex;
+	flex-direction:column;
+	margin-bottom: 38.5px;
+	min-height:500px;
+	width:792px;
+}
+
+.about-us{
+	color: goldenrod;
+	font-family: var(--font-family-open_sans);
+	font-size: var(--font-size-xs);
+	font-weight: 600;
+	letter-spacing: -0.25px;
+	line-height:25px;
+	margin-top: 8px;
+	min-height:36px;
+	min-width:124px;
+	text-decoration: underline;
+	white-space: nowrap;
+}
+
+.overlap-group{
+	height:197px;
+	margin-right:1px;
+	position:relative;
+	width:449px;
+	
+}
+
+.image{
+	background-image:url("../../../../Documents/Northwest vista/IMED-1316/GitHUb/thefriendlydeadcofinal/assets/Star.png");
+	background-size:100% 100%;
+	height:45px;
+	left:199px;
+	position:absolute;
+	top:180px;
+	width:50px;
+}
+
+.discover {
+	color:goldenrod;
+	font-family:var(--font-family-rage-italic);
+	font-size:65px;
+	font-style:italic;
+	font-weight:400;
+	left:113px;
+	letter-spacing:-0.75px;
+	line-height:78px;
+	position:absolute;
+	top:0;
+	white-space:nowrap;
+}
+.title {
+	color:black;
+	font-family:var(--font-family-noto_sans);
+	font-size:75px;
+	font-stlye:bold;
+	font-weight:700;
+	left:0;
+	letter-spacing:-0.8px;
+	line-height:0px;
+	position:absolute;
+	top:52px;
+	white-space: nowrap;
+}
+
+.lorem-ipsum-is-place{
+	color:black;
+	font-family:var(--font-family-open_sans);
+	font-size:40px;
+	font-weight:400;
+	letter-spacing:-0.4px;
+	line-height:40px;
+	margin-top:60px;
+	min-height:222px;
+	min-width:792px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.overlap-group1 {
+	align-items:center;
+	background-color: #1d1501;
+	border:1px solid;
+	border-color:#707070;
+	display:flex;
+	gap:1052px;
+	height:83px;
+	justify-content: flex-end;
+	min-width:1920px;
+	padding:19.5px 44px;
+}
+
+.the-place{
+	color:white;
+	font-family:var(--font-family-arial-bold);
+	font-size:var(--font-size-s);
+	font-weight:700;
+	letter-spacing:0;
+	line-height:30px;
+	margin-top:1px;
+	min-height:35px;
+	min-width:172px;
+	text-decoration: underline;
+	white-space:nowrap;
+}
+
+.welcome-menu-res{
+	align-self:flex-end;
+	color:white;
+	font-family:var(--font-family-open_sans);
+	font-size:var(--font-size-xs);
+	font-weight:300;
+	letter-spacing:-0.25px;
+	line-height:25px;
+	min-height:36px;
+	min-width:593px;
+	white-space:nowrap;
+}
+
+.span0{
+	text-decoration: underline;
+}
